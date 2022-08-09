@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  clone_projects
+//  [Project 1] GoodAsOldPhones
 //
 //  Created by 강보현 on 2022/08/09.
 //
