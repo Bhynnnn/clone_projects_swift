@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		070C5A3828A24A200005F872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C5A3728A24A200005F872 /* AppDelegate.swift */; };
 		070C5A3A28A24A200005F872 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C5A3928A24A200005F872 /* SceneDelegate.swift */; };
-		070C5A3C28A24A200005F872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C5A3B28A24A200005F872 /* ViewController.swift */; };
 		070C5A3F28A24A200005F872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070C5A3D28A24A200005F872 /* Main.storyboard */; };
 		070C5A4128A24A200005F872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070C5A4028A24A200005F872 /* Assets.xcassets */; };
 		070C5A4428A24A200005F872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070C5A4228A24A200005F872 /* LaunchScreen.storyboard */; };
+		070C5A5428A350FA0005F872 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C5A5328A350FA0005F872 /* Product.swift */; };
+		070C5A5828A36E190005F872 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C5A5728A36E190005F872 /* ProductViewController.swift */; };
+		070C5A5A28A36F440005F872 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C5A5928A36F440005F872 /* ProductsTableViewController.swift */; };
+		070C5A5C28A373740005F872 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C5A5B28A373740005F872 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		070C5A3428A24A200005F872 /* [Project 1] GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "[Project 1] GoodAsOldPhones.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		070C5A3728A24A200005F872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		070C5A3928A24A200005F872 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		070C5A3B28A24A200005F872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		070C5A3E28A24A200005F872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		070C5A4028A24A200005F872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		070C5A4328A24A200005F872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		070C5A4528A24A200005F872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070C5A5328A350FA0005F872 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		070C5A5728A36E190005F872 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		070C5A5928A36F440005F872 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		070C5A5B28A373740005F872 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				070C5A3728A24A200005F872 /* AppDelegate.swift */,
 				070C5A3928A24A200005F872 /* SceneDelegate.swift */,
-				070C5A3B28A24A200005F872 /* ViewController.swift */,
 				070C5A3D28A24A200005F872 /* Main.storyboard */,
 				070C5A4028A24A200005F872 /* Assets.xcassets */,
 				070C5A4228A24A200005F872 /* LaunchScreen.storyboard */,
 				070C5A4528A24A200005F872 /* Info.plist */,
+				070C5A5328A350FA0005F872 /* Product.swift */,
+				070C5A5728A36E190005F872 /* ProductViewController.swift */,
+				070C5A5928A36F440005F872 /* ProductsTableViewController.swift */,
+				070C5A5B28A373740005F872 /* ContactViewController.swift */,
 			);
 			path = "[Project 1] GoodAsOldPhones";
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070C5A3C28A24A200005F872 /* ViewController.swift in Sources */,
 				070C5A3828A24A200005F872 /* AppDelegate.swift in Sources */,
+				070C5A5A28A36F440005F872 /* ProductsTableViewController.swift in Sources */,
+				070C5A5828A36E190005F872 /* ProductViewController.swift in Sources */,
 				070C5A3A28A24A200005F872 /* SceneDelegate.swift in Sources */,
+				070C5A5428A350FA0005F872 /* Product.swift in Sources */,
+				070C5A5C28A373740005F872 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
