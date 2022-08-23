@@ -160,7 +160,7 @@ extension ViewController: UITableViewDataSource {
         let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
         
         if let labelNum = cell.viewWithTag(11) as? UILabel {
-            labelNum.text = "Lap \(laps.count - (indexPath as NSIndexPath).row)"
+            labelNum.text = "Lap\(laps.count - (indexPath as NSIndexPath).row)"
         }
         if let labelTimer = cell.viewWithTag(12) as? UILabel {
             labelTimer.text = laps[laps.count - (indexPath as NSIndexPath).row - 1]
