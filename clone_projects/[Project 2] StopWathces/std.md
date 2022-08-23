@@ -48,15 +48,15 @@
 
   - %연산 할 때 두 수 다 Integer이면 상관 없지만, 둘 중 하나라도 Double 이거나 Integer이 아니라면 오류
   
-  ```
-  var a = 10.0.truncatingRemainder(dividingBy: 3)
-
-  ```swift
+        var a = 10.0.truncatingRemainder(dividingBy: 3)
   
     
-    
-    
-    
+## 5. RunLoop
+
+
+#### https://babbab2.tistory.com/68
+
+  - 이해하기 어렵네....
     
     
     
